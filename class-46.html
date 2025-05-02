@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript array-Methods Find Function</title>
+    <script>
+        var b = [10,15,17,18,19,11,14,20,];
+        document.write( b + "<br><br>");
+        var c = b.find(checkAdult);
+        document.write( c + "<br><br>");
+
+        var c = b.findIndex(checkAdult);
+        document.write( c + "<br><br>");
+
+        function checkAdult(age) {
+            return age>= 18;
+
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

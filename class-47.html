@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript array-Methods Filter</title>
+    <script>
+        var ages = [105,15,17,18,19,11,14,20,];
+        var adult = 18;
+        document.write( ages + "<br><br>");
+        var b = ages.filter(checkadult);
+        document.write( b + "<br><br>");
+        function checkadult(age) {
+                return age >= 19;
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

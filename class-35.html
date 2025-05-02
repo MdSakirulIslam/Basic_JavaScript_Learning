@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript array</title>
+    <script>
+        var array = [
+            ["hasan",13,"male","EEE"],
+            ["Basir",13,"male","CWE"],
+            ["Sanaw",13,"male","ERT"],
+            ["Rawas",13,"male","SAT"],
+        ];
+        document.write( "<table border = '1px' cellspacing='5px'>");
+
+        for (var a= 0; a < array.length; a++){
+            document.write( "<tr>");
+
+            for (var b=0;b < array[a].length;b++){
+
+                document.write("<td>"+array[a][b] + "</td>");
+            }
+            document.write( "<tr>");
+
+        }
+        document.write( "</table>");
+
+        // for (var a= 0; a < 4; a++){
+        //     for (var b=0;b<4;b++){
+        //         document.write(array[a][b] + "<br>");
+        //     }
+        //     document.write( "<br>");
+        //
+        // }
+          </script>
+</head>
+<body>
+
+</body>
+</html>

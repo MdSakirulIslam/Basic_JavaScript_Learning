@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Objects</title>
+    <script>
+
+        var b = {
+            firstName:"Shakirul",
+            lastName:"Islam",
+            age:28,
+            country:"Bangladesh",
+            living :{
+                'city':'Dhaka',
+                'Thana':'tejgaon'
+            },
+            names : ["Shakil","Kawser","Shakib","Enamul"],
+            salary : function () {
+                return 25000;
+            },
+            fullname:function () {
+                return this.firstName+ " " + this.lastName;
+            }
+        };
+
+            document.write(b.living.city);
+            console.log(b);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
