@@ -1,0 +1,161 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #3498db;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #2980b9;
+    border-radius: 5px;
+}
+
+/* Main content area */
+.main-content {
+    display: flex;
+    margin: 20px 0;
+}
+
+/* Content Section */
+#content {
+    background-color: #ffffff;
+    padding: 30px;
+    flex: 3;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#content h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.content-with-image {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.content-with-image img {
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+#content p {
+    margin: 0 0 15px 0;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+#list {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+#list li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Sidebar */
+#sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin-bottom: 12px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #34495e;
+    font-weight: bold;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Footer */
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #34495e;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+/*1.document
+2.document.all
+3.document.documentElement
+4.document.head
+5.document.title
+6.document.body
+7.document.images
+8.document.anchors
+9.document.links
+10.document.forms
+11.document.doctype
+12.document.URL
+13.document.baseURL
+14.document.DOMAIN*/
